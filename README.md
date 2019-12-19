@@ -36,22 +36,46 @@ Also known as [breadth-first search](https://en.wikipedia.org/wiki/Tree_traversa
 Breadth-first can be done iteratively.
 
 #### Tips and Techniques
-In coding a binary tree traversals, one way is using iteration or loop. With this technique, it is recommended (or best) to use a [queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)). With my sample iteration codes, I'll be using *queue* most of the time, if not all and use *C++*.
+In coding a binary tree traversals, one way is using iteration or loop. With this technique, it is recommended (or best) to use a [queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)). With my sample iteration codes, I'll be using *queue* most of the time, if not all, and use *C++*.
 
-Another way is using *recursion*. *Binary tree* is a good data data structure to practice *recursion*. With recursion solution, sample codes are in Java.
+Another way is using *recursion*. *Binary tree* is a good data data structure to practice *recursion*. With recursion solution, sample codes are in *Java*.
 
 With level-order traversal (breadth-first), I do not think you can do it recursively. I haven't thought of a way to do it recursively nor seen one. In all recursion solution I've seen, the output might be in level-order, but still, it traverse thru the binary tree depth-first. If you seen an actual level-order traversal using recursion, or have one, please let me know.
 
-All of my sample codes will be using these for its test cases:
+All of my sample codes will be using these for its test cases: 
+
+Test Case 01:
 ```
-          12                                45
-         /  \                              /  \
-       /      \                           1    5 
-      10      30                         / \    \
-     /  \       \                      63   7   20
-    6   57      40                     /     \
-       /  \    /  \                   6      87
-      13  89  93   8                        
-     /          \                           
-    19           1
+          12           
+         /  \          
+       /      \        
+      10      30       
+     /  \       \      
+    6   57      40     
+       /  \    /       
+      13  89  93       
+               \      
+                1
+```
+
+Test Case 02:
+```
+            45
+           /  \
+          1    5 
+         / \    \
+       63   7   20
+       /   / 
+      6   87
+```
+
+Test Case 03:
+```
+          4
+         / \
+        3   5
+       /     \
+      2       6
+     /         \
+    1           7
 ```
