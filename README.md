@@ -36,7 +36,7 @@ Also known as [breadth-first search](https://en.wikipedia.org/wiki/Tree_traversa
 Breadth-first can be done iteratively.
 
 ### Tips and Techniques
-In coding a binary tree traversals, one way is using iteration or loop. With this technique, it is recommended (or best) to use a [queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) or [stack](https://en.wikipedia.org/wiki/Stack_%28abstract_data_type%29). With my iteration solutions, I'll be using *C++*.
+In coding a binary tree traversals, one way is using iteration or loop. With this technique, it is recommended (or best) to use a [stack](https://en.wikipedia.org/wiki/Stack_%28abstract_data_type%29) or [queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)). With my iteration solutions, I'll be using *C++*.
 
 Another way is using *recursion*. *Binary tree* is a good data structure to practice *recursion*. With recursion solution, sample codes are in *Java*.
 
